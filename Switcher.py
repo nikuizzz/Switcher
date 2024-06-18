@@ -873,6 +873,5 @@ if __name__ == '__main__':
             Switcher = Switcher(path=sys.argv[2])
         else:
             Switcher = Switcher()
-    else:Switcher = Switcher(script="generate", configuration_type="telnet", user="hidden", password="hidden", include_suggestions="file", include_icl=True)
-        
+            
     SwitcherUtils.end()
